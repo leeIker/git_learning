@@ -1,0 +1,18 @@
+现在安装完以后进行配置
+首先是path路径上配置git.bin目录
+然后打开gitbash 在里面配置user.name和user.email
+命令为 git config-- global user.name"user-name"
+git config--global user.email 'user-eamil'
+查看C盘用户中是否出现gitconfig文件里面会有用户名和邮箱
+配置远程托管仓库  申请github账户
+在本地生成ssh密钥
+生成口令为 ssh-keygen -t -C user-email，然后再C盘中的user中找
+ssh文件夹，找到其中的两个秘钥，讲公钥配置到github中
+然后再bash中输入ssh -T git@github.com
+然后再接下来的选择中选择yes将本地git连接到github
+
+以上内容为git的配置内容
+
+一下git操作
+在github中建立是有唯一标示符有http和ssh两种都可以
+打开bash在bash中输入git remote add origin 唯一标示符
