@@ -55,11 +55,11 @@ git push ogigin master提交到github比第一次提交少一个-u
 
 git命令 ls -a展示文件（包含隐藏文件） ls命令只展示文件   cat file——name展示文件内容
 touch命令改变文件的时间属性，如果不存在则创建空白文件
-git status -s 展示简短修改内容
+git status -s 显示你上一次操作有没有造成修改
 
 git diff展示修改的详细结果（为未缓存的工作区不同）
-git diff --cached 为缓存去的不同
-git diff HEAD 查看所有的不同
+git diff --cached 为缓存区的不同
+git diff HEAD 查看已经缓存和未缓存的所有不同
 
 
 分支管理内容
