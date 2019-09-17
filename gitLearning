@@ -1,4 +1,6 @@
-﻿现在安装完以后进行配置
+﻿git 操作为首先以git开始 然后是命令  命令之后是参数通常用-或者--表示
+
+现在安装完以后进行配置
 首先是path路径上配置git.bin目录
 然后打开gitbash 在里面配置user.name和user.email
 命令为 git config-- global user.name"user-name"
@@ -33,7 +35,10 @@ git checkout HEAD .或者git checkout HEAD file——name会将版本库文件�
 
 
 
-
+remote命令
+git remote打印拥有的远程库
+git remote -v并且打印具体地址
+git remote rm alias删除远程库
 在github中建立是有唯一标示符有http和ssh两种都可以
 打开bash在bash中输入git remote add origin 唯一标示符
 建立本地项目与远程项目的连接
@@ -76,6 +81,17 @@ git branch命令会列出分支
 
 删除文件 git rm 将会把工作区和缓存区的文件删除
 		git rm --cached 将会把缓存区文件删除
+		
+		
+	git log  是打印本git的历史
+	git log --oneline是简短的log
+	git log --graph是打印log中的分支日志
+	
+	
+	标签 git tag -a tag——name  会将版本保存   为tag——name并且
+	会打开一个文本，让你保存注释。
+	 同时 git tag会打印你拥有的所有标签
+	 git tag -d tag——name是删除标签
 
 
 

@@ -1,0 +1,16 @@
+git clone url  克隆远程库到本地  后边还可以再加本地项目名称参数
+git init 初始化git库
+
+git status 打印上一操作造成的改变 加上参数-s表示简短
+git diff 打印现在操作区和缓存区的不同 可以加上参数--cached打印
+缓存去的不同？？
+
+git add file——name 向缓存区加入工作区内容
+git mv old——name new——name 修改名字（？？）
+git commit 将缓存去进入版本库，参数-m‘’添加注释，-am‘’直接从工作区提交到版本库
+
+git log 打印log
+git log -p file——name制定该文件的log历史
+git blame file——name一列表方式制定盖文件的log
+
+git reset HEAD撤销工作区和缓存的工作，从新从版本库下载
