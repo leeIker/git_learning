@@ -1,0 +1,7 @@
+配置内容
+在team git configuration中配置user.name 和user.email
+然后再general  network  ssh2中配置ssh信息
+我操作的时候eclipse已经给配置好了
+
+做好的项目
+点team share 

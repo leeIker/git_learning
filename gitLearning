@@ -94,6 +94,6 @@ git branch命令会列出分支
 	 git tag -d tag——name是删除标签
 
 
-
+git 文件名用英文就是简单的英文，如果是汉语在git status -s是会显示一对数字用/连接。
 
 
